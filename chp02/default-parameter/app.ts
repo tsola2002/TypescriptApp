@@ -14,3 +14,6 @@ function countdown(initial, final = 0, interval = 1) {
 }
 
 countdown(10, 5, 2)
+
+// this code works too because the other parameters will be defaulted
+// countdown(10)
