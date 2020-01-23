@@ -9,4 +9,5 @@ var todo = {
 // we use ${} to inject a value
 var displayName = "Todo #" + todo.id;
 // the fact that the syntax uses the backtick symbol mean that youre free to use single & double quotes
+// we can also use ternary operators inside of the templates
 container.innerHTML = "\n<div todo='[[Todo ID]]' class=\"list-group-item}\">\n    <i class=\"" + (todo.completed ? "" : "hidden") + " text-success glyphicon glyphicon-ok\"></i>\n    <span class=\"name\">[[Name]]</span>\n</div>\n";
